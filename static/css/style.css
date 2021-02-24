@@ -1,0 +1,76 @@
+/*PAGE1*/
+*{margin: 0; padding: 0;}
+body{
+	font-size: 14px;
+	font-weight: 400;
+	background: url(../img/fundo.jpeg);
+	color: #fff;
+}
+
+div#corpo-form {
+	color: #fff;
+	margin: 50px auto 0px auto;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: rgba(0,0,0, 0.5);
+	box-shadow: 7px 7px 15px #000;
+	line-height: 35px;
+	text-align: center;
+}
+div#corpo-form h1 {
+	margin-bottom:10px; 
+}
+div#corpo-form img {
+	margin: auto;
+}
+#corpo-form input[type=submit], #corpo-form input {
+	display: block;
+	border:2px solid #fff;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+input[type=text], input[type=submit], input {
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size:14pt;
+	background-color: rgba(255,255,255,0.01);
+	outline: none;
+	color: #fff;
+}
+#corpo-form input[type=submit] {
+	width: 50%;
+	text-align: center;
+	padding: 10px 16px;
+	font-size: 19px;
+	border-radius: 10px;
+	background-color: transparent;
+}
+#email {
+	margin:auto;
+	width: 50%;
+}
+#btn {
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input[type=submit]:hover {
+	background-color: #fcec03;
+	cursor: pointer;
+}
+
+/*CORES PLACEHOLDER*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #fff;
+}
