@@ -1,0 +1,2 @@
+# captura-email
+Capture page
